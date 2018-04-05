@@ -48,8 +48,8 @@ public class ManterPaisController extends HttpServlet {
 		out.println("<html><head><title>Cliente Cadastrado</title></head><body>");
 		out.println(	"id: " + pais.getId()+"<br>");
 		out.println(	"nome: " + pais.getNome()+"<br>");
-		out.println(	"fone: " + pais.getPopulacao()+"<br>");
-		out.println(	"e-mail: " + pais.getArea()+"<br>");
+		out.println(	"população: " + pais.getPopulacao()+"<br>");
+		out.println(	"Area: " + pais.getArea()+"<br>");
 	    out.println("</body></html>");
 	}
 
